@@ -1,0 +1,218 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>RoboJackets</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="css/style.css" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 45px;
+        padding-bottom: 40px;
+      }
+      ul.nav li.dropdown:hover ul.dropdown-menu{
+        display: block;    
+      }
+    </style>
+    <link href="../assets/css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="../assets/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
+  </head>
+
+  <body style="background: url(backgroundrobot.jpg) no-repeat top center;">
+
+    <div class="container">
+      <div class="row">
+        <div class="span12" style="text-align: center;">
+          <img src="banner.png" alt="" />
+        </div>
+        <div class="navbar navbar-fixed-top">
+          <div class="navbar-inner">
+              <div class="container">
+              <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </a>
+              <div class="nav-collapse">
+                <ul class="nav">
+                  <li class="active"><a href="#">Home</a></li>
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#contact">Sponsors</a></li>
+                  <li class="dropdown" id="teams">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#teams">
+                      Teams <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">FIRST</a></li>
+                      <li><a href="#">IGVC</a></li>
+                      <li><a href="#">BattleBots</a></li>
+                      <li><a href="#">RoboCup</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown" id="projects">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#projects">
+                      Projects <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Downhill Car</a></li>
+                      <li><a href="#">IK Arm</a></li>
+                      <li><a href="#">Hexapod</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#contact">Get Involved!</a></li>
+                  <li><a href="#contact">Outreach</a></li>
+                  <li><a href="#contact">Contact Us</a></li>
+                  <li class="dropdown" id="teams">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#resources">
+                      Resources <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Downhill Car</a></li>
+                      <li><a href="#">IK Arm</a></li>
+                      <li><a href="#">Hexapod</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <form class="navbar-search pull-right">
+                  <input type="text" class="search-query" placeholder="Search">
+                </form>
+              </div>
+            </div><!--/.nav-collapse -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Main hero unit for a primary marketing message or call to action -->
+      <!-- <div class="hero-unit">
+        <h1>Hello, world!</h1>
+        <p>This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+        <p><a class="btn btn-primary btn-large">Learn more &raquo;</a></p>
+      </div> -->
+
+      <div id="myCarousel" class="carousel slide" style="border: 1px solid #ccc;">
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="2010FTCBanner.jpg" alt="">
+            <div class="carousel-caption">
+              <h4>First Thumbnail label</h4>
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+            </div>
+          </div>
+          <div class="item">
+            <img src="2010FTCBanner.jpg" alt="">
+            <div class="carousel-caption">
+              <h4>Second Thumbnail label</h4>
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+            </div>
+          </div>
+          <div class="item">
+            <img src="2010FTCBanner.jpg" alt="">
+            <div class="carousel-caption">
+              <h4>Third Thumbnail label</h4>
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+            </div>
+          </div>
+        </div>
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
+      </div>
+
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="span3">
+          <img src="who.png" alt="who?" width="220px" />
+          <img src="how.png" alt="how?" width="202px" />
+        </div>
+        <div class="span7">
+          <div class="row">
+            <div class="span1" style="margin: 0 -20px 0 20px;">
+              <img src="BB_48x48.png" alt="FIRST" />
+            </div>
+            <div class="span6">
+              <h3><a href="#">2012 BattleBots Competition</a></h3>
+              <p>March 27th, 2012 2:33 am | By Joseph Hickey</p>
+            </div>
+          </div>
+          <p>The 2012 RoboGames will be held April 19-22, 2011 in San Mateo, California. More info can be found at <a href="www.robogames.net">www.robogames.net</a>.</p>
+          <p>We will be traveling on April 18 and 22.</p>
+          <p><i class="icon-tag"></i> <a href="#">BattleBots</a>, <a href="#">Events</a></p>
+          <hr />
+          <div class="row">
+            <div class="span1" style="margin: 0 -20px 0 20px;">
+              <img src="FIRST_48x48.png" alt="FIRST" />
+            </div>
+            <div class="span6">
+              <h3><a href="#">FIRST 2012 Peachtree Regional Highest Rookie Seed</a></h3>
+              <p>March 23, 2012 1:54 pm | By Joseph Hickey</p>
+            </div>
+          </div>
+          <p>FRC 4080 Team Reboot took home the highest rookie seed award, finishing the qualifying matches as the 5th seeded team with a 7-2 win/loss record. Thank you to all the mentors, faculty, parents, and students that helped in this effort!</p>
+          <p><i class="icon-tag"></i> <a href="#">FIRST</a></p>
+          <hr />
+          <div class="row">
+            <div class="span1" style="margin: 0 -20px 0 20px;">
+              <img src="RoboCup_48x48.png" alt="FIRST" />
+            </div>
+            <div class="span6">
+              <h3><a href="#">2012 RoboCup SSL Qualification Materials Submitted</a></h3>
+              <p>February 28, 2012 6:12 pm | By Stefan Posey</p>
+            </div>
+          </div>
+          <p>TThe RoboCup team has submitted qualification materials for the 2012 world event. Both the paper and video are linked to below.</p>
+          <p>Video</p>
+          <p>- <a href="">http://youtu.be/kD_FQDBDIh8</a></p>
+          <p>- <a href="">http://www.robojackets.org/video/RoboJacketsRCQual2012.mkv</a></p>
+          <p>Team Description Paper</p>
+          <p>- <a href="">RoboJackets RoboCup 2012 TDP</a></p>
+          <p><i class="icon-tag"></i> <a href="#">RoboCup</a></p>
+       </div>
+        <div class="span2">
+          <h2>Heading</h2>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p><a class="btn" href="#">View details &raquo;</a></p>
+        </div>
+      </div>
+
+      <hr>
+
+      <footer>
+        <p>&copy; RoboJackets 2012</p>
+      </footer>
+
+    </div> <!-- /container -->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="lib/bootstrap/docs/assets/js/jquery.js"></script>
+    <script src="lib/bootstrap/docs/assets/js/bootstrap-transition.js"></script>
+    <script src="lib/bootstrap/docs/assets/js/bootstrap-alert.js"></script>
+    <script src="lib/bootstrap/docs/assets/js/bootstrap-modal.js"></script>
+    <script src="lib/bootstrap/docs/assets/js/bootstrap-dropdown.js"></script>
+    <script src="lib/bootstrap/docs/assets/js/bootstrap-scrollspy.js"></script>
+    <script src="lib/bootstrap/docs/assets/js/bootstrap-tab.js"></script>
+    <script src="lib/bootstrap/docs/assets/js/bootstrap-tooltip.js"></script>
+    <script src="lib/bootstrap/docs/assets/js/bootstrap-popover.js"></script>
+    <script src="lib/bootstrap/docs/assets/js/bootstrap-button.js"></script>
+    <script src="lib/bootstrap/docs/assets/js/bootstrap-collapse.js"></script>
+    <script src="lib/bootstrap/docs/assets/js/bootstrap-carousel.js"></script>
+    <script src="lib/bootstrap/docs/assets/js/bootstrap-typeahead.js"></script>
+    <script src="js/script.js"></script>
+
+  </body>
+</html>
