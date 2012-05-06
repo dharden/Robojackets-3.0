@@ -1,4 +1,4 @@
-// This is a hack to get around an error with less LESS compiler -- fix later
+// This is a hack to get around an error with LESS compiler -- fix later
 @import "../bootstrap/less/bootstrap.less";
 
 // CSS Reset
@@ -56,6 +56,16 @@
 
 // Custom
 
+body {
+	padding-top: 45px;
+	padding-bottom: 40px;
+	background: url(../img/backgroundrobot.jpg) no-repeat top center;
+}
+
+ul.nav li.dropdown:hover ul.dropdown-menu {
+	display: block;    
+}
+
 .caret {
 	.opacity(80);
 }
@@ -66,13 +76,4 @@
 
 .search-query {
 	width: 150px;
-}
-
-body {
-	padding-top: 45px;
-	padding-bottom: 40px;
-}
-
-ul.nav li.dropdown:hover ul.dropdown-menu {
-	display: block;    
 }

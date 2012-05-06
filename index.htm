@@ -16,20 +16,24 @@
       <![endif]-->
 
       <!-- Le fav and touch icons -->
-      <link rel="shortcut icon" href="bootstrap/docs/assets/ico/favicon.ico">
-      <link rel="apple-touch-icon-precomposed" sizes="114x114" href="bootstrap/docs/assets/ico/apple-touch-icon-114-precomposed.png">
-      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="boostrap/docs/assets/ico/apple-touch-icon-72-precomposed.png">
-      <link rel="apple-touch-icon-precomposed" href="bootstrap/docs/assets/ico/apple-touch-icon-57-precomposed.png">
+      <link rel="shortcut icon" href="img/favicon.ico">
+      <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/Buzz_114x114">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/Buzz_72x72">
+      <link rel="apple-touch-icon-precomposed" href="img/Buzz_57x57">
   </head>
 
-  <body style="background: url(img/backgroundrobot.jpg) no-repeat top center;">
+  <body>
 
     <div class="container">
-      <div class="row">
+
+      <!-- Main site header (RJ banner) -->
+      <header id="siteheader" class="row">
+        
         <div class="span12" style="text-align: center;">
-          <img src="img/banner.png" alt="" />
+          <a href="index.htm"><img src="img/banner.png" alt="" /></a>
         </div>
-        <div class="navbar navbar-fixed-top">
+        
+        <nav id="sitenav" class="navbar navbar-fixed-top">
           <div class="navbar-inner">
             <div class="container">
               <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -83,10 +87,12 @@
               </div>
             </div>
           </div>
-        </div>
-      </div>
+        </nav> <!-- /sitenav -->
 
-      <div id="myCarousel" class="carousel slide" style="border: 1px solid #ccc;">
+      </header> <!-- /siteheader -->
+
+      <!-- Carousel for featured news items -->
+      <section id="carousel" class="carousel slide" style="border: 1px solid #ccc;">
         <div class="carousel-inner">
           <div class="item active">
             <img src="img/2010FTCBanner.jpg" alt="">
@@ -110,65 +116,52 @@
             </div>
           </div>
         </div>
-        <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-        <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
-      </div>
+        <a class="left carousel-control" href="#carousel" data-slide="prev">&lsaquo;</a>
+        <a class="right carousel-control" href="#carousel" data-slide="next">&rsaquo;</a>
+      </section> <!-- /carousel -->
 
-      <!-- Example row of columns -->
-      <div class="row">
-        <div class="span3">
+
+      <!-- Main content (posts, info, etc) -->
+      <section id="content" class="row">
+
+        <section id="clubinfo" class="span3">
           <img src="img/who.png" alt="who?" width="220px" />
           <img src="img/how.png" alt="how?" width="202px" />
-        </div>
-        <div class="span7">
-          <div class="row">
-            <div class="span1" style="margin: 0 -20px 0 20px;">
-              <img src="img/BB_48x48.png" alt="FIRST" />
-            </div>
-            <div class="span6">
-              <h3><a href="#">2012 BattleBots Competition</a></h3>
-              <p>March 27th, 2012 2:33 am | By Joseph Hickey</p>
-            </div>
-          </div>
-          <p>The 2012 RoboGames will be held April 19-22, 2011 in San Mateo, California. More info can be found at <a href="www.robogames.net">www.robogames.net</a>.</p>
-          <p>We will be traveling on April 18 and 22.</p>
-          <p><i class="icon-tag"></i> <a href="#">BattleBots</a>, <a href="#">Events</a></p>
+        </section> <!-- /clubinfo -->
+
+        <!-- News items -->
+        <section id="posts" class="span7">
+
+          <article class="post">
+            <header class="row">
+              <div class="span1" style="margin: 0 -20px 0 20px;">
+                <img src="img/BB_48x48.png" alt="FIRST" />
+              </div>
+              <div class="span6">
+                <h3><a href="#">2012 BattleBots Competition</a></h3>
+                <p>March 27th, 2012 2:33 am | By Joseph Hickey</p>
+              </div>
+            </header>
+            <p>The 2012 RoboGames will be held April 19-22, 2011 in San Mateo, California. More info can be found at <a href="www.robogames.net">www.robogames.net</a>.</p>
+            <p>We will be traveling on April 18 and 22.</p>
+            <p><i class="icon-tag"></i> <a href="#">BattleBots</a>, <a href="#">Events</a></p>
+          </article>
           <hr />
-          <div class="row">
-            <div class="span1" style="margin: 0 -20px 0 20px;">
-              <img src="img/FIRST_48x48.png" alt="FIRST" />
-            </div>
-            <div class="span6">
-              <h3><a href="#">FIRST 2012 Peachtree Regional Highest Rookie Seed</a></h3>
-              <p>March 23, 2012 1:54 pm | By Joseph Hickey</p>
-            </div>
-          </div>
-          <p>FRC 4080 Team Reboot took home the highest rookie seed award, finishing the qualifying matches as the 5th seeded team with a 7-2 win/loss record. Thank you to all the mentors, faculty, parents, and students that helped in this effort!</p>
-          <p><i class="icon-tag"></i> <a href="#">FIRST</a></p>
-          <hr />
-          <div class="row">
-            <div class="span1" style="margin: 0 -20px 0 20px;">
-              <img src="img/RoboCup_48x48.png" alt="FIRST" />
-            </div>
-            <div class="span6">
-              <h3><a href="#">2012 RoboCup SSL Qualification Materials Submitted</a></h3>
-              <p>February 28, 2012 6:12 pm | By Stefan Posey</p>
-            </div>
-          </div>
-          <p>TThe RoboCup team has submitted qualification materials for the 2012 world event. Both the paper and video are linked to below.</p>
-          <p>Video</p>
-          <p>- <a href="">http://youtu.be/kD_FQDBDIh8</a></p>
-          <p>- <a href="">http://www.robojackets.org/video/RoboJacketsRCQual2012.mkv</a></p>
-          <p>Team Description Paper</p>
-          <p>- <a href="">RoboJackets RoboCup 2012 TDP</a></p>
-          <p><i class="icon-tag"></i> <a href="#">RoboCup</a></p>
-        </div>
-        <div class="span2">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn" href="#">View details &raquo;</a></p>
-        </div>
-      </div>
+
+        </section> <!-- /posts -->
+
+        <!-- Media items (photo gallery, social media, etc.) -->
+        <aside id="media" class="span2">
+          <img src="img/collage.jpg" alt="Photo Gallery" />
+          <h3>Check out our photo gallery!</h3>
+          <p>See photos of our robots, events, and competitions.</p>
+          <img src="img/Feed_512x512.png" alt="RSS Feed" width="48" height="48" />
+          <img src="img/Facebook_512x512.png" alt="RSS Feed" width="48" height="48" />
+          <img src="img/Twitter_512x512.png" alt="RSS Feed" width="48" height="48" />
+          <img src="img/Youtube_512x512.png" alt="RSS Feed" width="48" height="48" />
+        </aside>
+
+      </section> <!-- /content -->
 
       <hr>
 

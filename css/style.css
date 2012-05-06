@@ -12029,6 +12029,14 @@ a.badge:hover {
 .invisible {
   visibility: hidden;
 }
+body {
+  padding-top: 45px;
+  padding-bottom: 40px;
+  background: url(../img/backgroundrobot.jpg) no-repeat top center;
+}
+ul.nav li.dropdown:hover ul.dropdown-menu {
+  display: block;
+}
 .caret {
   opacity: 0.8;
   filter: alpha(opacity=80);
@@ -12040,11 +12048,4 @@ a.badge:hover {
 }
 .search-query {
   width: 150px;
-}
-body {
-  padding-top: 45px;
-  padding-bottom: 40px;
-}
-ul.nav li.dropdown:hover ul.dropdown-menu {
-  display: block;
 }
