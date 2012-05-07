@@ -20,5 +20,7 @@
     <script src="<?php echo THEME_URI; ?>/bootstrap/docs/assets/js/bootstrap-typeahead.js"></script>
     <script src="<?php echo THEME_JS; ?>/script.js"></script>
 
+    <?php wp_footer(); ?>
+
   </body>
 </html>

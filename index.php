@@ -111,6 +111,8 @@
           </article>
           <hr />
 
+        <?php include("posts.php"); ?>
+
         </section> <!-- /posts -->
 
         <!-- Media items (photo gallery, social media, etc.) -->
