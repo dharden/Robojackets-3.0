@@ -1,0 +1,9 @@
+		<aside id="media" class="span2">
+          <img src="<?php echo THEME_IMAGES; ?>/collage.jpg" alt="Photo Gallery" />
+          <h3>Check out our photo gallery!</h3>
+          <p>See photos of our robots, events, and competitions.</p>
+          <img src="<?php echo THEME_IMAGES; ?>/Feed_512x512.png" alt="RSS Feed" width="48" height="48" />
+          <img src="<?php echo THEME_IMAGES; ?>/Facebook_512x512.png" alt="RSS Feed" width="48" height="48" />
+          <img src="<?php echo THEME_IMAGES; ?>/Twitter_512x512.png" alt="RSS Feed" width="48" height="48" />
+          <img src="<?php echo THEME_IMAGES; ?>/Youtube_512x512.png" alt="RSS Feed" width="48" height="48" />
+        </aside>

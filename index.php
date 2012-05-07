@@ -1,38 +1,4 @@
-
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>RoboJackets</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <!-- styles -->
-    <link href="css/style.css" rel="stylesheet">
-      <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-      <!--[if lt IE 9]>
-          <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-      <![endif]-->
-
-      <!-- fav and touch icons -->
-      <link rel="shortcut icon" href="img/favicon.ico">
-      <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/Buzz_114x114">
-      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/Buzz_72x72">
-      <link rel="apple-touch-icon-precomposed" href="img/Buzz_57x57">
-  </head>
-
-  <body>
-
-    <div class="container">
-
-      <!-- Main site header (RJ banner) -->
-      <header id="siteheader" class="row">
-        
-        <div class="span12" style="text-align: center;">
-          <a href="index.htm"><img src="img/banner.png" alt="" /></a>
-        </div>
-        
+<?php get_header(); ?>
         <nav id="sitenav" class="navbar navbar-fixed-top">
           <div class="navbar-inner">
             <div class="container">
@@ -95,21 +61,21 @@
       <section id="carousel" class="carousel slide" style="border: 1px solid #ccc;">
         <div class="carousel-inner">
           <div class="item active">
-            <img src="img/2010FTCBanner.jpg" alt="">
+            <img src="<?php echo THEME_IMAGES; ?>/2010FTCBanner.jpg" alt="">
             <div class="carousel-caption">
               <h4>First Thumbnail label</h4>
               <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
             </div>
           </div>
           <div class="item">
-            <img src="img/2010FTCBanner.jpg" alt="">
+            <img src="<?php echo THEME_IMAGES; ?>/2010FTCBanner.jpg" alt="">
             <div class="carousel-caption">
               <h4>Second Thumbnail label</h4>
               <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
             </div>
           </div>
           <div class="item">
-            <img src="img/2010FTCBanner.jpg" alt="">
+            <img src="<?php echo THEME_IMAGES; ?>/2010FTCBanner.jpg" alt="">
             <div class="carousel-caption">
               <h4>Third Thumbnail label</h4>
               <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
@@ -124,10 +90,7 @@
       <!-- Main content (posts, info, etc) -->
       <section id="content" class="row">
 
-        <section id="clubinfo" class="span3">
-          <img src="img/who.png" alt="who?" width="220" />
-          <img src="img/how.png" alt="how?" width="202" />
-        </section> <!-- /clubinfo -->
+      <?php get_sidebar(clubinfo); ?>
 
         <!-- News items -->
         <section id="posts" class="span7">
@@ -135,7 +98,7 @@
           <article class="post">
             <header class="row">
               <div class="span1" style="margin: 0 -20px 0 20px;">
-                <img src="img/BB_48x48.png" alt="FIRST" />
+                <img src="<?php echo THEME_IMAGES; ?>/BB_48x48.png" alt="FIRST" />
               </div>
               <div class="span6">
                 <h3><a href="#">2012 BattleBots Competition</a></h3>
@@ -151,41 +114,9 @@
         </section> <!-- /posts -->
 
         <!-- Media items (photo gallery, social media, etc.) -->
-        <aside id="media" class="span2">
-          <img src="img/collage.jpg" alt="Photo Gallery" />
-          <h3>Check out our photo gallery!</h3>
-          <p>See photos of our robots, events, and competitions.</p>
-          <img src="img/Feed_512x512.png" alt="RSS Feed" width="48" height="48" />
-          <img src="img/Facebook_512x512.png" alt="RSS Feed" width="48" height="48" />
-          <img src="img/Twitter_512x512.png" alt="RSS Feed" width="48" height="48" />
-          <img src="img/Youtube_512x512.png" alt="RSS Feed" width="48" height="48" />
-        </aside>
-
+        <?php get_sidebar(media); ?>
+        
       </section> <!-- /content -->
 
       <hr>
-
-      <footer>
-        <p>&copy; RoboJackets 2012</p>
-      </footer>
-
-    </div> <!-- /container -->
-
-    <!-- javascript -->
-    <script src="bootstrap/docs/assets/js/jquery.js"></script>
-    <script src="bootstrap/docs/assets/js/bootstrap-transition.js"></script>
-    <script src="bootstrap/docs/assets/js/bootstrap-alert.js"></script>
-    <script src="bootstrap/docs/assets/js/bootstrap-modal.js"></script>
-    <script src="bootstrap/docs/assets/js/bootstrap-dropdown.js"></script>
-    <script src="bootstrap/docs/assets/js/bootstrap-scrollspy.js"></script>
-    <script src="bootstrap/docs/assets/js/bootstrap-tab.js"></script>
-    <script src="bootstrap/docs/assets/js/bootstrap-tooltip.js"></script>
-    <script src="bootstrap/docs/assets/js/bootstrap-popover.js"></script>
-    <script src="bootstrap/docs/assets/js/bootstrap-button.js"></script>
-    <script src="bootstrap/docs/assets/js/bootstrap-collapse.js"></script>
-    <script src="bootstrap/docs/assets/js/bootstrap-carousel.js"></script>
-    <script src="bootstrap/docs/assets/js/bootstrap-typeahead.js"></script>
-    <script src="js/script.js"></script>
-
-  </body>
-</html>
+<?php get_footer(); ?>
