@@ -95,22 +95,6 @@
         <!-- News items -->
         <section id="posts" class="span7">
 
-          <article class="post">
-            <header class="row">
-              <div class="span1" style="margin: 0 -20px 0 20px;">
-                <img src="<?php echo THEME_IMAGES; ?>/BB_48x48.png" alt="FIRST" />
-              </div>
-              <div class="span6">
-                <h3><a href="#">2012 BattleBots Competition</a></h3>
-                <p>March 27th, 2012 2:33 am | By Joseph Hickey</p>
-              </div>
-            </header>
-            <p>The 2012 RoboGames will be held April 19-22, 2011 in San Mateo, California. More info can be found at <a href="www.robogames.net">www.robogames.net</a>.</p>
-            <p>We will be traveling on April 18 and 22.</p>
-            <p><i class="icon-tag"></i> <a href="#">BattleBots</a>, <a href="#">Events</a></p>
-          </article>
-          <hr />
-
         <?php include("posts.php"); ?>
 
         </section> <!-- /posts -->
