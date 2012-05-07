@@ -32,6 +32,6 @@
       <header id="siteheader" class="row">
         
         <div class="span12" style="text-align: center;">
-          <a href="index.htm"><img src="<?php echo THEME_IMAGES; ?>/banner.png" alt="" /></a>
+          <a href="<?php echo HOME_URI; ?>"><img src="<?php echo THEME_IMAGES; ?>/banner.png" alt="" /></a>
         </div>
  
