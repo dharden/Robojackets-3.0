@@ -8,6 +8,13 @@ define( 'THEME_JS', THEME_URI . '/js' );
 
 register_nav_menu( 'navigation', __( 'Navigation' ) );
 
+function home_page_menu_agrs( $args )
+{
+	$args['show_home'] = true;
+	return $args;
+}
+add_filter( 'wp_page_menu_args', 'home_page_menu_agrs' );
+
 if ( function_exists ('register_sidebar'))
 { 
 	register_sidebar( array(

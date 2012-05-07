@@ -5,6 +5,7 @@ $(document).ready(function () {
 
 
 	// Adds class names that match Twitter Bootstrap defaults. This theme expects a menu named nav.
+	$("li.current_menu_item").addClass("active");
 	$("li.current_page_item").addClass("active");
 	$("ul#menu-nav").addClass("nav");
 
