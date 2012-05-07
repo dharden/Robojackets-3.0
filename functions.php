@@ -6,6 +6,8 @@ define( 'THEME_IMAGES', THEME_URI . '/img' );
 define( 'THEME_CSS', THEME_URI . '/css' );
 define( 'THEME_JS', THEME_URI . '/js' );
 
+register_nav_menu( 'navigation', __( 'Navigation' ) );
+
 if ( function_exists ('register_sidebar'))
 { 
 	register_sidebar( array(

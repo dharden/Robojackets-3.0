@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+
         <nav id="sitenav" class="navbar navbar-fixed-top">
           <div class="navbar-inner">
             <div class="container">
@@ -8,7 +9,9 @@
                 <span class="icon-bar"></span>
               </a>
               <div class="nav-collapse">
-                <ul class="nav">
+                <?php wp_nav_menu( array( 'theme_location' => 'navigation', 'container' => false ) ); ?>
+
+<!--                <ul class="nav">
                   <li class="active"><a href="#">Home</a></li>
                   <li><a href="#about">About</a></li>
                   <li><a href="#contact">Sponsors</a></li>
@@ -46,7 +49,7 @@
                       <li><a href="#">Hexapod</a></li>
                     </ul>
                   </li>
-                </ul>
+                </ul> -->
                 <form class="navbar-search pull-right">
                   <input type="text" class="search-query" placeholder="Search">
                 </form>
