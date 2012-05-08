@@ -1,6 +1,6 @@
 <?php $featuredID = get_cat_ID( "Featured" );
 	$carousel_query = new WP_Query(('cat=' . $featuredID ); ?>
-<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+<?php if ( $carousel_query-> have_posts()) : while (have_posts()) : the_post(); ?>
 <?php $count = 1; ?>
   <div class="item <?php if ($count == 1) { echo 'active'; }l ?>">
     <?php if ( has_post_thumbnail() ) { the_post_thumbnail( 'full' ); } ?>
