@@ -8,6 +8,8 @@ define( 'THEME_JS', THEME_URI . '/js' );
 
 register_nav_menu( 'navigation', __( 'Navigation' ) );
 
+add_theme_support( 'post-thumbnails' );
+
 function home_page_menu_agrs( $args )
 {
 	$args['show_home'] = true;

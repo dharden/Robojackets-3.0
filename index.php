@@ -59,11 +59,13 @@
         </nav> <!-- /sitenav -->
 
       </header> <!-- /siteheader -->
-
       <!-- Carousel for featured news items -->
       <section id="carousel" class="carousel slide" style="border: 1px solid #ccc;">
         <div class="carousel-inner">
-          <div class="item active">
+
+        <?php include("carousel.php"); ?>
+
+<!--          <div class="item active">
             <img src="<?php echo THEME_IMAGES; ?>/2010FTCBanner.jpg" alt="">
             <div class="carousel-caption">
               <h4>First Thumbnail label</h4>
@@ -83,7 +85,7 @@
               <h4>Third Thumbnail label</h4>
               <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
             </div>
-          </div>
+          </div> -->
         </div>
         <a class="left carousel-control" href="#carousel" data-slide="prev">&lsaquo;</a>
         <a class="right carousel-control" href="#carousel" data-slide="next">&rsaquo;</a>
