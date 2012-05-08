@@ -60,37 +60,8 @@
 
       </header> <!-- /siteheader -->
       <!-- Carousel for featured news items -->
-      <section id="carousel" class="carousel slide" style="border: 1px solid #ccc;">
-        <div class="carousel-inner">
 
-        <?php include("carousel.php"); ?>
-
-<!--          <div class="item active">
-            <img src="<?php echo THEME_IMAGES; ?>/2010FTCBanner.jpg" alt="">
-            <div class="carousel-caption">
-              <h4>First Thumbnail label</h4>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-            </div>
-          </div>
-          <div class="item">
-            <img src="<?php echo THEME_IMAGES; ?>/2010FTCBanner.jpg" alt="">
-            <div class="carousel-caption">
-              <h4>Second Thumbnail label</h4>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-            </div>
-          </div>
-          <div class="item">
-            <img src="<?php echo THEME_IMAGES; ?>/2010FTCBanner.jpg" alt="">
-            <div class="carousel-caption">
-              <h4>Third Thumbnail label</h4>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-            </div>
-          </div> -->
-        </div>
-        <a class="left carousel-control" href="#carousel" data-slide="prev">&lsaquo;</a>
-        <a class="right carousel-control" href="#carousel" data-slide="next">&rsaquo;</a>
-      </section> <!-- /carousel -->
-
+        <?php if ( is_front_page() ) { include("carousel.php"); } ?>
 
       <!-- Main content (posts, info, etc) -->
       <section id="content" class="row">

@@ -5,6 +5,7 @@ define( 'THEME_URI', get_stylesheet_directory_uri() );
 define( 'THEME_IMAGES', THEME_URI . '/img' );
 define( 'THEME_CSS', THEME_URI . '/css' );
 define( 'THEME_JS', THEME_URI . '/js' );
+define( 'ICONPATH', THEME_IMAGES . '/icons' );
 
 register_nav_menu( 'navigation', __( 'Navigation' ) );
 
@@ -40,4 +41,28 @@ if ( function_exists ('register_sidebar'))
 	) );
 }
 
+/*function getCategoryImage() {
+	$categories = get_the_category();
+	$image = 'Default.png';
+	foreach ( $categories as $category ) {
+		$name = $category->cat_name;
+		$file = ICONFILE . DIRECTORY_SEPARATOR . $name . '.png ';
+		if( file_exists( $file ) ) {
+			$image = $name . '.png' ;
+			break;
+		}
+	}
+	echo ICONPATH . '/' . $image ;
+} */
+
+function getCategoryImage() {
+	if (function_exists('get_cat_icon'))
+	{
+		get_cat_icon() ;
+	}
+	//else
+	//{
+	//	echo "<img src=\"" . ICONPATH . "/Default.png\" alt=\"RoboJackets\" />";
+	//}
+}
 ?>
