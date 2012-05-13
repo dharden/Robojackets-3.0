@@ -1,4 +1,4 @@
-		<aside id="media" class="span2">
+		<aside id="media" class="span2 sidebar">
 	      <img src="<?php echo THEME_IMAGES; ?>/collage.jpg" alt="Photo Gallery" />
 	      <strong><p>Check out our photo gallery!</p></strong>
 	      <p>See photos of our robots, events, and competitions.</p>

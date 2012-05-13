@@ -12062,12 +12062,9 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 section#posts {
   background: white;
 }
-#media {
+.sidebar {
   text-align: center;
 }
-#clubinfo {
-  text-align: center;
-}
-#clubinfo ul {
+.sidebar ul {
   text-align: left;
 }

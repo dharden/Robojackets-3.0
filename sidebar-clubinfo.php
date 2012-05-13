@@ -1,5 +1,5 @@
-        <section id="clubinfo" class="span3">
-        	
+        <section id="clubinfo" class="span3 sidebar">
+
          	<img src="<?php echo THEME_IMAGES; ?>/who.png" alt="who?" width="220" />
         	<img src="<?php echo THEME_IMAGES; ?>/how.png" alt="how?" width="202" />
 
