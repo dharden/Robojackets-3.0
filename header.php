@@ -7,7 +7,9 @@
             bloginfo('name');
             if (is_home()) {
               $description = get_bloginfo('description');
-              $description != "" : echo " - " . $description;
+              if ($description != "") {
+                echo " - " . $description;
+                }
               }
       ?>
     </title>
