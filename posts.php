@@ -1,5 +1,5 @@
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-	<article id="post-<?php the_ID(); ?> class="post">
+	<article id="post-<?php the_ID(); ?>" class="post">
 	    <header class="row">
 	      <div class="span1 icon" style="margin: 0 -20px 0 20px;">
 	        <?php getCategoryImage() ; ?>
