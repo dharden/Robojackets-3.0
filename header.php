@@ -26,7 +26,7 @@
       <![endif]-->
 
       <!-- fav and touch icons -->
-      <link rel="shortcut icon" href="img/favicon.ico">
+      <link rel="shortcut icon" href="<?php echo THEME_IMAGES; ?>/favicon.ico">
       <link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?php echo THEME_IMAGES; ?>/Buzz_114x114">
       <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?php echo THEME_IMAGES; ?>/Buzz_72x72">
       <link rel="apple-touch-icon-precomposed" href="<?php echo THEME_IMAGES; ?>/Buzz_57x57">
