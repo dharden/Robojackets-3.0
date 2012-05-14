@@ -66,9 +66,9 @@ function getCategoryImage() {
 	//}
 }
 
-add_filter( 'the_category', 'add_nofollow_cat' ); 
-function add_nofollow_cat( $text ) {
-$text = str_replace('rel="category tag"', "", $text); return $text;
+add_filter( 'the_category', 'remove_rel_category' ); 
+function remove_rel_category( $text ) {
+$text = str_replace('rel="category"', "", $text); return $text;
 }
 
 ?>
