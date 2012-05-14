@@ -6,8 +6,8 @@
       <?php wp_title( ' - ', true, 'right' );
             bloginfo('name');
             if (is_home()) {
-              echo " - ";
-              bloginfo('description');
+              $description = get_bloginfo('description');
+              $description != "" : echo " - " . $description;
               }
       ?>
     </title>
