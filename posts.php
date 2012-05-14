@@ -10,8 +10,11 @@
 	      </div>
 	    </header>
 	    <?php the_content(); ?>
+	    <?php wp_link_pages('before=<div id="page-links">&after=</div>'); ?>
 	    <p><i class="icon-tag"></i> <?php the_category(', '); ?></p>
 	</article>
 	<hr />
 <?php endwhile; ?>
 <?php endif; ?>
+<?php posts_nav_link(); ?>
+<hr />
