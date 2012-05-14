@@ -65,4 +65,10 @@ function getCategoryImage() {
 	//	echo "<img src=\"" . ICONPATH . "/Default.png\" alt=\"RoboJackets\" />";
 	//}
 }
+
+add_filter( 'the_category', 'add_nofollow_cat' ); 
+function add_nofollow_cat( $text ) {
+$text = str_replace('rel="category tag"', "", $text); return $text;
+}
+
 ?>
