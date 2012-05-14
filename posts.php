@@ -6,7 +6,7 @@
 	      </div>
 	      <div class="span6">
 	        <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-	        <p><?php the_date(); echo " "; the_time(); ?> | By <?php the_author(); ?></p>
+	        <p><?php the_date(); echo " "; the_time(); ?> | By <?php the_author(); edit_post_link('edit', ' | ', ''); ?></p>
 	      </div>
 	    </header>
 	    <?php the_content(); ?>
