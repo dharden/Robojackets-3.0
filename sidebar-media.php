@@ -1,6 +1,6 @@
 		<aside id="media" class="span2 sidebar">
 	      <img src="<?php echo THEME_IMAGES; ?>/collage.jpg" alt="Photo Gallery" />
-	      <strong><p>Check out our photo gallery!</p></strong>
+	      <p><strong>Check out our photo gallery!</strong></p>
 	      <p>See photos of our robots, events, and competitions.</p>
 	      <img src="<?php echo THEME_IMAGES; ?>/Feed_512x512.png" alt="RSS Feed" width="48" height="48" />
 	      <img src="<?php echo THEME_IMAGES; ?>/FaceBook_512x512.png" alt="RSS Feed" width="48" height="48" />
