@@ -12059,8 +12059,11 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 .search-query {
   width: 150px;
 }
-section#posts {
+#posts {
   background: white;
+}
+#posts article {
+  margin: 0 5px;
 }
 .sidebar {
   text-align: center;
