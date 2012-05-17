@@ -71,4 +71,8 @@ function remove_rel_category( $text ) {
 $text = str_replace('rel="category"', "", $text); return $text;
 }
 
+if ( function_exists( 'add_image_size' ) ) { 
+	add_image_size( 'featured-image', 980, 406, true );
+}
+
 ?>

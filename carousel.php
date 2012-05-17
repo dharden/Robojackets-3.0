@@ -6,7 +6,7 @@
 		<?php $count = 1; ?>
 		<?php if ( $carousel_query-> have_posts()) : while ($carousel_query-> have_posts()) : $carousel_query-> the_post(); ?>
 		  <div class="item <?php if ($count == 1) { echo 'active'; }l ?>">
-		    <?php if ( has_post_thumbnail() ) { the_post_thumbnail( 'full' ); } ?>
+		    <?php if ( has_post_thumbnail() ) { the_post_thumbnail( 'featured-image' ); } ?>
     		<div class="carousel-caption">
 		      <h4><?php the_title(); ?></h4>
 		      <p><?php $key="blurb"; echo get_post_meta($post->ID, $key, true); ?> <a href="<?php the_permalink(); ?>">Read more...</a></p>
