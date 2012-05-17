@@ -69,6 +69,7 @@ function getCategoryImage() {
 add_filter( 'the_category', 'remove_rel_category' ); 
 function remove_rel_category( $text ) {
 $text = str_replace('rel="category"', "", $text); return $text;
+$text = str_replace('rel="category tag"', "", $text); return $text;
 }
 
 if ( function_exists( 'add_image_size' ) ) { 
