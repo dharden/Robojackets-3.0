@@ -16,4 +16,5 @@
 	<hr />
 <?php endwhile; ?>
 <?php endif; ?>
-<?php posts_nav_link('after=<hr />'); ?>
+<?php posts_nav_link(); ?>
+<hr />
