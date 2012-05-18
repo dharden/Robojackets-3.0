@@ -10,7 +10,7 @@
 	      </div>
 	    </header>
 	    <?php the_content(); ?>
-	    <?php wp_link_pages('before=<div id="page-links">&after=</div>'); ?>
+	    <?php wp_link_pages(array('before' => '<div id="page-links">', 'after' => '</div>')); ?>
 	    <p><i class="icon-tag"></i> <?php the_category(', '); ?></p>
 	</article>
 	<hr />
