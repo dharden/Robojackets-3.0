@@ -30,6 +30,9 @@
       <link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?php echo THEME_IMAGES; ?>/Buzz_114x114">
       <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?php echo THEME_IMAGES; ?>/Buzz_72x72">
       <link rel="apple-touch-icon-precomposed" href="<?php echo THEME_IMAGES; ?>/Buzz_57x57">
+
+      <script src="<?php echo THEME_URI; ?>/bootstrap/docs/assets/js/jquery.js"></script>
+        
       <?php wp_head(); ?>
   </head>
 
