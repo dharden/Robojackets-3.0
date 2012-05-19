@@ -7,7 +7,7 @@
                 <span class="icon-bar"></span>
               </a>
               <div class="nav-collapse">
-                <?php wp_nav_menu( array( 'theme_location' => 'navigation', 'container' => false ) ); ?>
+                <?php wp_nav_menu( array( 'theme_location' => 'navigation', 'container' => false, 'walker' => new Bootstrapifier(), 'items_wrap' => '<ul id="%1$s" class="%2$s nav">%3$s</ul>' ) ); ?>
 
                 <?php get_search_form( $echo ); ?>
               </div>

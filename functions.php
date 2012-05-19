@@ -77,4 +77,28 @@ if ( function_exists( 'add_image_size' ) ) {
 	add_image_size( 'featured-image', 980, 406, true );
 }
 
+
+class Bootstrapifier extends Walker_Nav_Menu {
+
+	function start_lvl(&$output, $depth) {
+		$indent = str_repeat("\t", $depth);
+		$output .= "\n$indent<ul class=\"sub-menu dropdown-menu\">\n";
+	}
+}
+
+/* find some way to check if item is parent
+
+add_filter('nav_menu_css_class', 'auto_custom_type_class', 10, 2 );
+function auto_custom_type_class($classes, $item) {
+
+
+    if ($item-> menu_item_parent == "0"){
+        $classes[] = "dropdown";
+    }
+
+    return $classes;
+}
+
+*/
+
 ?>
