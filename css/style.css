@@ -12071,3 +12071,16 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 .sidebar ul {
   text-align: left;
 }
+body.admin-bar #wphead {
+  padding-top: 0;
+}
+body.admin-bar #footer {
+  padding-bottom: 28px;
+}
+#wpadminbar {
+  top: auto !important;
+  bottom: 0;
+}
+#wpadminbar .quicklinks .menupop ul {
+  bottom: 28px;
+}
