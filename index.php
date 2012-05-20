@@ -21,7 +21,7 @@
         </div>
         <div class="span4">
           <h2>How do you get involved?</h2>
-          <p>Since our goals are multi-faceted and highly multidisciplinary, we are always looking for new members from every major. At present our member are comprised of ME, AE, Physics, CS, ECE, Applied Mathematics, and Management majors.</p>
+          <p>It's easy-- no experience required. We'll teach you everything you need to know. What are you waiting for? Join us.</p>
           <a class="btn" href="#">Find out more »</a>
         </div>
       </section>
