@@ -5,10 +5,9 @@
       </header> <!-- /siteheader -->
       <!-- Carousel for featured news items -->
 
-        <?php if ( is_front_page() ) {
-          include("carousel.php");
-          include("info.php");
-        } ?>
+        <?php if ( is_front_page() ) { include("carousel.php"); } ?>
+
+        <?php if ( is_front_page() ) { include("info.php"); } ?>
 
       <hr />
 
