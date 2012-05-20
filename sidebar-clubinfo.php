@@ -1,7 +1,12 @@
         <section id="clubinfo" class="span3 sidebar">
 
-         	<a href="<?php echo esc_url( get_permalink( get_page_by_title( 'About' ) ) ); ?>"><img src="<?php echo THEME_IMAGES; ?>/who.png" alt="who?" width="220" /></a>
-        	<a href="<?php echo esc_url( get_permalink( get_page_by_title( 'Join Us' ) ) ); ?>"><img src="<?php echo THEME_IMAGES; ?>/how.png" alt="how?" width="202" /></a>
+    	  <a href="<?php echo HOME_URI; ?>/gallery"><img src="<?php echo THEME_IMAGES; ?>/collage.jpg" alt="Photo Gallery" /></a>
+	      <p><strong>Check out our photo gallery!</strong></p>
+	      <p>See photos of our robots, events, and competitions.</p>
+	      <a href="<?php bloginfo('rss2_url'); ?>"><img src="<?php echo THEME_IMAGES; ?>/Feed_512x512.png" alt="RSS Feed" width="48" height="48" /></a>
+	      <a href="https://www.facebook.com/groups/27431371825/"><img src="<?php echo THEME_IMAGES; ?>/FaceBook_512x512.png" alt="Facebook" width="48" height="48" /></a>
+	      <a href="http://twitter.com/#!/RoboJackets"><img src="<?php echo THEME_IMAGES; ?>/Twitter_512x512.png" alt="Twitter" width="48" height="48" /></a>
+	      <a href="http://www.youtube.com/user/RoboJackets"><img src="<?php echo THEME_IMAGES; ?>/Youtube_512x512.png" alt="YouTube" width="48" height="48" /></a>
 
       		<?php if ( function_exists ( dynamic_sidebar("clubinfo") ) ) : ?>
 			<?php dynamic_sidebar ("clubinfo"); ?>

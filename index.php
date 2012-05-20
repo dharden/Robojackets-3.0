@@ -42,7 +42,7 @@
         </section> <!-- /posts -->
 
         <!-- Media items (photo gallery, social media, etc.) -->
-        <?php get_sidebar(media); ?>
+        <!-- <?php get_sidebar(media); ?> -->
         
       </section> <!-- /content -->
 
