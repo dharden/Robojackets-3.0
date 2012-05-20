@@ -10,7 +10,7 @@
           <a class="btn" href="#">View details »</a>
         </div>
         <div class="span4">
-          <h2>How do you get involved?</h2>
+          <h2>How do you join?</h2>
           <p>It's easy-- no experience required. We'll teach you everything you need to know. What are you waiting for? Join us.</p>
           <a class="btn" href="#">Find out more »</a>
         </div>
