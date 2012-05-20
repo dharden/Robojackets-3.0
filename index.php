@@ -31,11 +31,8 @@
       <!-- Main content (posts, info, etc) -->
       <section id="content" class="row">
 
-      <!-- Info about joining the club -->
-      <?php get_sidebar(clubinfo); ?>
-
         <!-- News items -->
-        <section id="posts" class="span7">
+        <section id="posts" class="span9">
 
         <?php include("posts.php"); ?>
 
@@ -43,6 +40,10 @@
 
         <!-- Media items (photo gallery, social media, etc.) -->
         <!-- <?php get_sidebar(media); ?> -->
+
+
+      <!-- Info about joining the club -->
+      <?php get_sidebar(clubinfo); ?>
         
       </section> <!-- /content -->
 
