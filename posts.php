@@ -4,7 +4,7 @@
 	      <div class="span1 icon" style="margin: 0 -20px 0 20px;">
 	        <?php getCategoryImage() ; ?>
 	      </div>
-	      <div class="span6">
+	      <div class="span7">
 	        <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
 	        <p><?php the_date(); echo " "; the_time(); ?> | By <?php the_author(); edit_post_link('edit', ' | ', ''); ?></p>
 	      </div>
