@@ -12087,6 +12087,6 @@ body.admin-bar #footer {
 ul .ab-submenu {
   background: #fff !important;
 }
-.widget {
+aside.widget {
   margin: 10px 0 0 10px;
 }
