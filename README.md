@@ -15,6 +15,7 @@ In your themes directory:
 To get Bootstrap:
 
 `git submodule init`
+
 `git submodule update`
 
 Features
