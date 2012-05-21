@@ -1,7 +1,7 @@
       <section id="info" class="row">
         <div class="span4">
           <h2>Who are we?</h2>
-          <p>The RoboJackets is a group of Georgia Tech students, faculty, and alumni. We want to spread the knowledge of robotics to as many GT students as we can.</p>
+          <p>The RoboJackets is a group of Georgia Tech students, faculty, and alumni. We want to spread the knowledge of robotics to GT students.</p>
           <a class="btn" href="<?php echo esc_url( get_permalink( get_page_by_title( 'About' ) ) ); ?>">Find out more »</a>
         </div>
         <div class="span4">
