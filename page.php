@@ -7,9 +7,6 @@
       <!-- Main content (posts, info, etc) -->
       <section id="content" class="row">
 
-      <!-- Info about joining the club -->
-      <?php get_sidebar(clubinfo); ?>
-
         <!-- News items -->
         <section id="posts" class="span9">
 
