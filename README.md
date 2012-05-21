@@ -10,12 +10,12 @@ Clone with git, or download the latest release. Install into your WordPress them
 
 In your themes directory:
 
-`git clone git://github.com/dharden/Robojackets-3.0.git
+`git clone git://github.com/dharden/Robojackets-3.0.git`
 
 To get Bootstrap:
 
-`git submodule init
-`git submodule update
+`git submodule init`
+`git submodule update`
 
 Features
 -------------------------
