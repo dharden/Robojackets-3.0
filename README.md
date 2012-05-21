@@ -3,6 +3,20 @@ RoboJackets 3.0
 
 This is a new theme for the RoboJackets website ( [http://www.robojackets.org/](http://www.robojackets.org/) )
 
+Installation
+-------------------------
+
+Clone with git, or download the latest release. Install into your WordPress themes directory, and put a copy of Bootstrap in that directory (named Bootstrap)
+
+In your themes directory:
+
+`git clone git://github.com/dharden/Robojackets-3.0.git
+
+To get Bootstrap:
+
+`git submodule init
+`git submodule update
+
 Features
 -------------------------
 Built using Twitter Bootstrap, and using:
