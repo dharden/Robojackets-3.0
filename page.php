@@ -11,14 +11,14 @@
       <?php get_sidebar(clubinfo); ?>
 
         <!-- News items -->
-        <section id="posts" class="span7">
+        <section id="posts" class="span9">
 
         <?php include("pages.php"); ?>
 
         </section> <!-- /posts -->
 
         <!-- Media items (photo gallery, social media, etc.) -->
-        <?php get_sidebar(media); ?>
+        <?php get_sidebar(clubinfo); ?>
         
       </section> <!-- /content -->
 
