@@ -8,10 +8,6 @@
 		      <a href="http://www.youtube.com/user/RoboJackets"><img src="<?php echo THEME_IMAGES; ?>/Youtube_512x512.png" alt="YouTube" width="48" height="48" /></a>
 	  	  </aside>
 
-	  	  <aside ID="photos" class="widget">
-		      <h3>Photos</h3>
-	    	  <a href="<?php echo HOME_URI; ?>/gallery"><img src="<?php echo THEME_IMAGES; ?>/collage.jpg" alt="Photo Gallery" width="150" /></a>
-    	  </aside>
       		<?php if ( function_exists ( dynamic_sidebar("clubinfo") ) ) : ?>
 			<?php dynamic_sidebar ("clubinfo"); ?>
 			<?php endif; ?>
