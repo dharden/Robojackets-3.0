@@ -1,6 +1,6 @@
         <section id="clubinfo" class="span3 sidebar">
 
-          <aside id="follow" class="widget">
+		<aside id="follow" class="widget">
 	          <h3>Follow Us</h3>
 		      <a href="<?php bloginfo('rss2_url'); ?>"><img src="<?php echo THEME_IMAGES; ?>/Feed_512x512.png" alt="RSS Feed" width="48" height="48" /></a>
 		      <a href="https://www.facebook.com/groups/27431371825/"><img src="<?php echo THEME_IMAGES; ?>/FaceBook_512x512.png" alt="Facebook" width="48" height="48" /></a>
@@ -9,8 +9,9 @@
 	  	  </aside>
 
 	  	  <aside ID="photos" class="widget">
-		      <h3>Photos</h3>
+		      <h3>Photo Gallery</h3>
 	    	  <a href="<?php echo HOME_URI; ?>/gallery"><img src="<?php echo THEME_IMAGES; ?>/collage.jpg" alt="Photo Gallery" width="150" /></a>
+	    	  <p>Check out photos of our robots, events, and more.</p>
     	  </aside>
       		<?php if ( function_exists ( dynamic_sidebar("clubinfo") ) ) : ?>
 			<?php dynamic_sidebar ("clubinfo"); ?>
