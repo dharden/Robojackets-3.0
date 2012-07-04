@@ -5,6 +5,7 @@
     </div> <!-- /container -->
 
     <!-- javascript -->
+    <script src="<?php echo THEME_URI; ?>/bootstrap/docs/assets/js/jquery.js"></script>
     <script src="<?php echo THEME_URI; ?>/bootstrap/docs/assets/js/bootstrap-transition.js"></script>
     <script src="<?php echo THEME_URI; ?>/bootstrap/docs/assets/js/bootstrap-alert.js"></script>
     <script src="<?php echo THEME_URI; ?>/bootstrap/docs/assets/js/bootstrap-modal.js"></script>
